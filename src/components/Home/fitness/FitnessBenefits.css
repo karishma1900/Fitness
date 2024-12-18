@@ -1,0 +1,56 @@
+.fitness-benefits {
+    text-align: center;
+    padding: 30px;
+    color: white;
+    max-width: 1500px;
+    margin: auto;
+  }
+  .fitness-benefits h2 {
+    color: red;
+    font-size: 3rem;
+    margin-bottom: 40px;
+    animation: fadeIn 2s ease-out;
+  }
+   .main-class {
+    color: rgb(167, 164, 164);
+    width: 550px;
+    margin: auto;
+ padding-bottom: 70px;
+  }
+  .benefit-container {
+
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+  .benefit-Box{
+    border: 1px solid #54504c;
+    margin:20px 0px;
+    background-color: rgba(50, 48, 48, 0.334);
+    padding:40px 35px;
+    border-radius: 15px;
+    text-align: left;
+  }
+  .benefit-Box h4{
+    font-size: 25px;
+    color: red;
+    padding:10px 0px;
+  }
+  .benefit-Box p{
+    padding: 10px 0px;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(146, 146, 146);
+  }
+  .benefit-Box img{
+    background-color: #54504c4a;
+    padding:10px 12px;
+    border-radius: 5px;
+    margin: 0px 5px;
+    cursor: pointer;
+    margin: 10px 0px;
+
+    &:hover{
+        background-color: #54504ce2;
+    }
+  }

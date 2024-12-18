@@ -1,0 +1,78 @@
+.mission {
+  text-align: center;
+  margin: 30px 0px;;
+  padding: 80px 20px;
+  background-color: black;
+  color: #fff;
+  
+  
+}
+.mission-container{
+  max-width: 1300px;
+  margin: auto;
+}
+.mission h2 {
+  padding:10px 0px;
+
+  font-weight: 500;
+  color: red;
+  font-size: 80px;
+  line-height: 80px;
+ 
+  letter-spacing: 5px;
+  display: inline-block;
+ 
+}
+.mission-container .desc{
+  
+  max-width: 800px;
+  margin: auto;
+  font-size:18px;
+  padding: 40px 20px;
+ 
+}
+.mission-container p {
+/* padding: 10px 29px; */
+  margin: auto;
+  font-size:15px;
+  color: #bfbbb7;
+  margin-bottom: 40px;
+}
+
+.stats {
+  padding:40px 0px;
+  display: flex;
+align-items: center;
+justify-content: space-between;
+  gap: 50px;
+}
+
+.stats div {
+  text-align: center;
+  padding: 0px 20px;
+  border-right: 1px solid rgba(195, 184, 184, 0.197);
+}
+
+.stats h3 {
+  font-size: 3rem;
+  color: white; /* Highlighted number color */
+  margin: 0;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.stats p {
+  font-size: 17px;
+  color: #7b7b7b;
+}
+
+/* Fade-in animation for numbers */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

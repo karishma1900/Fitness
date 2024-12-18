@@ -1,0 +1,59 @@
+.fitnesshub{
+    background: url("../../../assets//fitnessgym.png")no-repeat center center/cover;
+padding: 80px 20px;
+margin:30px 0px;
+}
+.fitness-conatiner{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1300px;
+    margin: auto;
+   grid-gap:180px;
+}
+.fitness-text h2 {
+    color: red;
+    font-size: 3rem;
+    margin-bottom: 40px;
+    animation: fadeIn 2s ease-out;
+  }
+  .fitness-text p{
+    color: white;
+    
+ padding-bottom: 70px;
+  }
+  .fitness-image img{
+    width: 100%;
+  }
+  /* moving text */
+  .moving-text3 {
+    color: white#fff;
+    overflow: hidden;
+    white-space: nowrap;
+    padding:0px;
+    background-color: #FF3333;
+    /* font-size: 1.2rem; */
+  }
+  
+  .moving-text3 p {
+    margin:0px 0px;
+    line-height: 80px;
+    padding: 0px 0px;
+    line-height: 40px;
+ 
+    font-weight: 400;
+    color: #bfbbb7;
+    font-size: 20px;
+  
+  
+    display: inline-block;
+    animation: moveText 30s linear infinite; /* Adjusted duration */
+  }
+  
+  @keyframes moveText {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%); /* Move only half to create seamless scroll */
+    }
+  }

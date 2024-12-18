@@ -1,0 +1,64 @@
+/* .main-slider{
+    background: url(../../assets//Section.png)no-repeat center center/cover;
+    height: 90vh;
+} */
+ .main-slider {
+height: 100%;
+ 
+ }
+ .main-slider img{
+    width: 100%;
+ }
+ .fitness-video video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional for styling */
+  }
+  .fitness-video{
+ margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+
+  }
+  .fitness-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+  }
+  
+  .video-container {
+    position: relative;
+    width: 800px;
+    height: 450px;
+    &:hover{
+        opacity: 0.7;
+        cursor: pointer;
+        transition: all 0.5s ease-in;
+    }
+  }
+
+  
+  .video-container video {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px; /* Optional for rounded corners */
+  }
+  
+  .play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+  }
+  
+  .play-icon img {
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Ensure the icon doesn’t block interactions with the video */
+  }
+  

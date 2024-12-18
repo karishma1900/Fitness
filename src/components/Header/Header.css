@@ -1,0 +1,126 @@
+/* Header Container */
+.header {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    padding: 10px 20px;
+    border-radius: 50px;
+    position: relative;
+    top:30px;
+    background-color: #282726;
+    border: 1px solid #54504c;
+  }
+  
+  /* Logo Styling */
+  .logo img {
+    width: 200px;
+  }
+  
+  /* Navbar Links */
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    position: relative;
+  }
+  
+  .navbar li {
+    position: relative; /* Parent for dropdown */
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .navbar a:hover {
+    color: #939393;
+  }
+  
+  /* Dropdown Menu */
+ 
+  .Dropdown{
+
+    border: 1px solid #54504c;
+    display: none;
+    position: absolute; /* Positioned relative to parent */
+    top: 100%; /* Appears below the parent */
+    left: 0;
+    background-color: #282726;
+   padding:10px 0px;
+
+    border-radius: 5px;
+    z-index: 100;
+  }
+  .dropdown-menu{
+    display:flex;
+    flex-direction: column;
+    width:170px;
+    object-fit: contain;
+  }
+  /* .dropdown-menu { 
+    position: absolute; 
+    top: 100%;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 0;
+    margin: 0;
+    border-radius: 5px;
+    z-index: 100;
+  } */
+  
+  .dropdown-menu li {
+    text-align: left;
+
+    padding: 8px 20px;
+  }
+  
+  .dropdown-menu li a {
+    color: white;
+  
+    display: block;
+    transition: color 0.3s;
+  }
+  
+  .dropdown-menu li a:hover {
+    color: #e50914;
+  }
+  
+  /* Dropdown Hover Effect */
+  .dropdown:hover .Dropdown{
+    display: block; /* Show dropdown */
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  /* Join Button */
+  .cta-button .join-btn {
+    background-color: #e50914;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-button .join-btn:hover {
+    background-color: #b20710;
+  }
+  
+  /* Fade-In Animation */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
